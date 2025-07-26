@@ -1,0 +1,18 @@
+#footer {
+    padding: 2rem;
+    display: grid;
+    place-content: center;
+}
+
+#footer .social {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 1rem;
+    justify-content: center;
+}
+
+#footer .social i {
+    font-size: 2rem;
+    cursor: pointer;
+    color: var(--txt-primary);
+}

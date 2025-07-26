@@ -1,0 +1,14 @@
+#nav-logo {
+    display: grid;
+    place-content: center;
+    padding: 2rem;
+    font-size: 2rem;
+    color: var(--txt-primary);
+}
+
+@media screen and (max-width: 540px) {
+    #nav-logo {
+        text-align: center;
+        border-bottom: 0.25rem solid var(--txt-primary);
+    }
+}

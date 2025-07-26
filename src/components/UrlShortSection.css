@@ -1,0 +1,76 @@
+#shorten-sec {
+    padding: 2.5rem;
+    background-color: var(--txt-primary);
+    box-shadow: 1rem 1rem 0.5rem var(--primary-accent);
+    display: grid;
+    justify-self: center;
+    grid-gap: 1rem;
+    border-radius: 0.5rem;
+    position: relative;
+    width: 50%;
+}
+
+#shorten-sec form {
+    display: grid;
+    grid-gap: 1rem;
+    grid-auto-flow: column;
+    grid-template-columns: 5fr 1fr;
+}
+
+#shorten-sec .result {
+    color: var(--txt-secondary);
+}
+
+#shorten-sec .result p a {
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: var(--primary-accent);
+    cursor: pointer;
+}
+
+#shorten-sec .error p{
+    color: var(--txt-secondary);
+    background-color: var(--primary-accent);
+    font-size: 1.25rem;
+}
+
+#shorten-sec input[type="url"] {
+    border: none;
+    outline: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+#shorten-sec button {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    background-color: var(--btn-primary);
+    color: var(--txt-secondary);
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 860px) {
+    #shorten-sec {
+        margin: 1rem;
+        width: fit-content;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    #shorten-sec {
+        width: 90%;
+        box-shadow: 0rem 0rem 1rem var(--primary-accent);
+    }
+
+    #shorten-sec form {
+        grid-template-columns: 1fr;
+        grid-auto-flow: row;
+    }
+
+    #shorten-sec .result p a {
+        font-size: 1rem;
+    }
+}
