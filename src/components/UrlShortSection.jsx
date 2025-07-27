@@ -10,8 +10,8 @@ const UrlShortSection = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await axios.post('http://localhost:5000/shorten', { originalUrl });
-      setShortUrl(`http://localhost:5000/${res.data.shortCode}`);
+      const res = await axios.post('https://hop-link-backend-production.up.railway.app/shorten', { originalUrl });
+      setShortUrl(`https://hop-link-backend-production.up.railway.app/${res.data.shortCode}`);
       setError('');
     } catch(err) {
       setError(err.response?.data || 'Error shortening URL');
