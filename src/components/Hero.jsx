@@ -6,7 +6,7 @@ const Hero = () => {
     <div id="hero">
         <div className="hero-details">
             <h2>More than just shorter links</h2>
-            <p>Build your brand's recognition and get detailed insights on how your links are performing.</p>
+            <p>Build your brand's recognition.</p>
             <div><a href="#shorten-sec">Get Started</a></div>
         </div>
         <div className="hero-img">

@@ -4,10 +4,10 @@ const Footer = () => {
   return (
     <div id="footer">
         <div className="social">
-            <i className="fa-brands fa-square-facebook"></i>
-            <i className="fa-brands fa-square-x-twitter"></i>
-            <i className="fa-brands fa-square-pinterest"></i>
-            <i className="fa-brands fa-square-instagram"></i>
+            <a href="#"><i className="fa-brands fa-square-facebook"></i></a>
+            <a href="#"><i className="fa-brands fa-square-x-twitter"></i></a>
+            <a href="#"><i className="fa-brands fa-square-pinterest"></i></a>
+            <a href="#"><i className="fa-brands fa-square-instagram"></i></a>
         </div>
     </div>
   )
